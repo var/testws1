@@ -12,7 +12,7 @@ express()
     console.log("post", JSON.stringify(req));
     res.send('hi');
   })).put('/', ((req, res) => {
-    console.log("post", JSON.stringify(req));
+    console.log("put", JSON.stringify(req));
     res.send('hi');
   }))
   .listen(PORT, () => console.log(`Listening on ${ PORT }`))
